@@ -1,0 +1,313 @@
+/*
+  fonts.css
+
+  Version: $Revision: 1.15 $
+ 
+  Date: $Date: 2006/07/27 22:54:53 $
+ 
+  Copyright (c) 2002-2005, Hewlett-Packard Company and Massachusetts
+  Institute of Technology.  All rights reserved.
+ 
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions are
+  met:
+ 
+  - Redistributions of source code must retain the above copyright
+  notice, this list of conditions and the following disclaimer.
+ 
+  - Redistributions in binary form must reproduce the above copyright
+  notice, this list of conditions and the following disclaimer in the
+  documentation and/or other materials provided with the distribution.
+ 
+  - Neither the name of the Hewlett-Packard Company nor the name of the
+  Massachusetts Institute of Technology nor the names of their
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+ 
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+  OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+  ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+  TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+  USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+  DAMAGE.
+*/
+   
+/** good ***/
+body { 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+#contact_us {
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+        text-align: right;
+}
+
+#contact_us a {
+	text-decoration: none;
+}
+
+
+#contact_us a:hover {
+	text-decoration: underline;
+}
+
+
+#mainmenu ul li {
+	text-transform: uppercase;
+}
+
+#mainmenu ul li a {
+	text-decoration: none;
+}
+
+#mainmenu ul li a:hover {
+	font-weight: normal;
+}
+
+.main_nav_text { text-transform: uppercase;
+				 text-decoration: none;
+				 font-weight: normal; }
+
+.sub_nav_text { font-weight: bold;
+				text-decoration: none; }
+				
+li.ds-trail-link {
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+}
+
+li.ds-trail-link a{
+    text-decoration: none;    
+}
+
+li.ds-trail-link a:hover{
+    text-decoration: underline;    
+}
+
+li.last-link {
+    font-weight: bolder;
+}
+
+div#ds-user-box p {
+	font-size: 95%;
+}
+
+div#ds-user-box a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+div#ds-user-box a:hover {
+	text-decoration: underline;
+}
+
+div#ds-body h1 { 
+    font-size: 14px; 
+    font-weight: normal;
+}
+
+div#ds-body h2 { 
+    font-size: 14px; 
+    font-weight: bold;
+}
+
+div#ds-footer a{
+  text-decoration: none;
+}
+
+div#ds-body h3 { 
+    font-size: 11px; 
+    font-weight: bold;
+}
+
+div#ds-options h3{
+   font-size: 12px;
+}
+
+
+div#ds-options h4{
+   font-size: 10px;
+}
+
+*.alphabet li {
+    font-weight: 200;
+}    
+
+.alphabet a{
+    font-weight: 600;
+}
+
+.alphabet a:hover{
+    font-weight: 600;
+}
+
+div#ds-search-option input.ds-text-field {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+div#ds-search-option input.ds-button-field {
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+div#ds-search-option a {
+    font-weight: bold;
+}
+
+.collection .search, .community .search {
+    font-size: 10px;
+}
+
+.collection input {
+	font-size: 10px;
+}
+
+.collection input.ds-text-field {
+	width: 136px;
+}
+.collection select {
+	font-size: 10px;
+}
+
+.community input {
+	font-size: 10px;
+}
+
+.community select {
+	font-size: 10px;
+}
+
+
+div.filter-search-results.filter-search {
+    font-size: 10px;
+}
+
+div.filter-search-results input {
+	font-size: 10px;
+}
+
+div.filter-search-results select {
+	font-size: 10px;
+}
+
+.navigation input,.navigation select {
+	font-size: 10px;
+}
+
+div#ds-footer p, div#footer-links {
+	font-family: Arial, Sans-serif;
+	font-size: 10px;
+}
+
+.pagination-links li {
+	font-weight: bolder;
+	font-size: 90%;
+}
+
+div.artifact-title {
+	font-size: 12px;
+}
+
+.artifact-title a {
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 90%;
+}
+
+.artifact-title a:hover {
+	text-decoration: underline;
+}
+
+ul.ds-artifact-list li span.publisher {
+	font-style: italic;
+}
+
+.citation {
+	font-size: 11px;
+}
+
+span.title {
+	font-style: italic;
+}
+
+p.copyright-text {
+	font-style: italic;
+}
+
+td {
+	font-size: inherit;
+}
+
+.subheader th {
+	font-weight: 100;
+}
+
+
+fieldset.ds-form-list legend {
+	font-size: 115%;
+	font-weight: bolder;
+}
+
+fieldset.ds-form-sublist legend {
+	font-size: 100%;
+	font-weight: bolder;
+}
+
+ol li.ds-form-item a {
+	font-size: 90%;
+}
+
+span.ds-form-label,label.ds-form-label {
+	font-weight: bold;
+}
+
+label.ds-composite-component {
+	display: block;
+	float: left;
+	padding: 0px 5px 0 0px;
+	font-size: 95%;
+	text-align: left;
+}
+
+span.error {
+	font-size: 95%;
+}
+
+span.field-help {
+	font-size: 95%;
+}
+
+span.composite-help {
+	font-size: 95%;
+}
+
+span.bold {
+	font-weight: bold;
+}
+
+span.italics,span.italic {
+	font-style: italic;
+}
+
+span.underline {
+	text-decoration: underline;
+}
+
+*.ds-gloss-list-label {
+	font-weight: bolder;
+}
+
+div#ds-header a {
+	text-decoration: none;
+}

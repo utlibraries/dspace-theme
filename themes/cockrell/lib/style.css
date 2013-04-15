@@ -1,0 +1,1085 @@
+/*
+  style.css
+ 
+  Version: $Revision: 1.15 $
+ 
+  Date: $Date: 2006/07/27 22:54:53 $
+ 
+  Copyright (c) 2002-2005, Hewlett-Packard Company and Massachusetts
+  Institute of Technology.  All rights reserved.
+ 
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions are
+  met:
+ 
+  - Redistributions of source code must retain the above copyright
+  notice, this list of conditions and the following disclaimer.
+ 
+  - Redistributions in binary form must reproduce the above copyright
+  notice, this list of conditions and the following disclaimer in the
+  documentation and/or other materials provided with the distribution.
+ 
+  - Neither the name of the Hewlett-Packard Company nor the name of the
+  Massachusetts Institute of Technology nor the names of their
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+ 
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+  OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+  ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+  TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+  USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+  DAMAGE.
+*/
+@import url("color.css");
+
+@import url("fonts.css");
+
+@import url("images.css");
+
+body {
+	margin: 10px;
+	padding: 0px;
+        text-align:center;
+}
+
+ul {
+	list-style-type: square;
+}
+
+div#ds-header {
+    padding: 0px;
+	margin: 0px;
+	margin-bottom: 5px;
+	width: inherit;
+}
+
+
+div#ds-header  a span#ds-header-logo {
+	    display: block;	
+        width: inherit;
+        height: 65px;
+        position: relative;
+        top: 36px;
+}
+
+#contact_us {
+	position: absolute;
+	width: 400px;
+	height: 30px;
+	top: 50px;
+	right: 10px;
+	z-index: 4;
+}
+
+
+div#ds-header h1,div#ds-header h2 {
+	display: none;
+}
+
+form.navSearch p {
+	padding: 0px;
+	margin: 0px;
+}
+
+ul#ds-trail {
+	padding: 0px;
+        margin: 0px;
+        position:relative;
+        height: 28px;
+        top: 36px;
+        left: 0px;
+}
+
+
+li.ds-trail-link {
+        position: relative;
+	display: inline;
+	line-height: 20px;
+	max-width: 400px;
+	overflow: hidden;
+        padding-left: 15px;
+        top: 5px;
+}
+
+
+
+
+
+div#ds-user-box {
+	display: none;
+	width: 100%;
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	text-align: right;
+}
+
+div#ds-user-box p {
+	height: 12px;
+	padding: 0px;
+	margin: 0px;
+}
+
+div#ds-user-box a {
+	height: 12px;
+	padding: 0px;
+	margin: 0px;
+}
+
+div#ds-main{
+       position:relative;
+       margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding: 0;
+width: 800px;
+ 
+       
+}
+
+div#ds-body {
+	float: left;
+	clear: left;
+	padding: 0px 30px 20px 5px;
+        margin-top: 50px;
+	width: 560px;
+	min-height: 350px;
+        
+}
+
+div#ds-body h1 {
+	clear: both;
+	padding-bottom: 3px;
+}
+
+div#ds-body h2 {
+	clear: both;
+	padding: 10px 0;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+div#ds-body h3 {
+	clear: both;
+	padding: 10px 0;
+	margin-bottom: 0px;
+}
+
+ul.alphabet {
+	padding-left: 10px;
+	padding-top: 0px;
+	margin: 0px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.alphabet li {
+	list-style: none;
+	display: inline;
+	margin-right: 3px;
+}
+
+div#ds-options {
+        float: right;
+	clear: right;
+	width: 195px;
+        padding: 3px;
+       /* margin-top: -13px; */
+	margin-top:30px; /*move right nav down to provide room for breadcrumb*/
+}
+
+div#ds-options ul{
+  list-style-type: none; 
+   margin: 0px;
+   padding: 3px;
+}
+
+
+div#ds-options li{
+   margin: 0px;
+   padding: 1px;
+}
+
+
+
+div#ds-options h3 {
+	position: relative;
+	top: 12px;
+	margin: 0px;
+	margin-left: 5px;
+}
+
+div#ds-options h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+div#ds-search-option *{
+  margin: 0px;
+padding: 0px;
+}
+
+div#ds-search-option {
+	position: relative;
+	text-align: right;
+        top: 17px;
+        right: 10px;
+	border: none;
+	padding: 0px;
+	width: 200px;
+	z-index: 30;
+}
+
+div#ds-search-option input.ds-text-field {
+	padding-left: 5px;
+	margin-right: 5px;
+	width: 130px;
+}
+
+div#ds-search-option a {
+	position: relative;
+	top: 3px;
+        font-size: 90%;
+}
+
+
+div.ds-option-set {
+	margin-bottom: 20px;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+.collection .search {
+	padding: 5px 5px 5px 10px;
+	margin: 5px 0px 5px 0px;
+}
+
+.collection input {
+	margin: 0px;
+}
+
+.collection input.ds-text-field {
+	width: 136px;
+}
+
+.collection select {
+	margin: 0px;
+	width: 140px;
+}
+
+.collection p.button-list {
+	margin: 0px;
+}
+
+.community .search {
+	padding: 5px 5px 5px 10px;
+	margin: 5px 0px 5px 0px;
+}
+
+.community input {
+	margin: 0px;
+}
+
+.community input.ds-text-field {
+	width: 136px;
+}
+
+.community select {
+	margin: 0px;
+	width: 140px;
+}
+
+.community p.button-list {
+	margin: 0px;
+}
+
+div.search-browse {
+	float: left;
+	padding: 0px;
+	width: 50%;
+	margin-right: 3%;
+	margin-bottom: 2%;
+}
+
+div.filter-search-results .filter-search {
+	padding: 5px 5px 5px 10px;
+	margin: 5px 0px 5px 0px;
+	width: 260px;
+}
+
+div.filter-search-results input {
+	margin: 0px;
+}
+
+div.filter-search-results input.ds-text-field {
+	width: 136px;
+}
+
+div.filter-search-results select {
+	margin: 0px;
+	width: 140px;
+}
+
+.result-query {
+	text-align: center;
+}
+
+.filter-search h2,.filter-search h2 {
+	display: none;
+}
+
+input.ds-password-field {
+	margin-right: 5px;
+}
+
+.navigation input,.navigation select {
+	margin-left: 5px;
+}
+
+.navigation p {
+	margin: 5px;
+	text-align: center;
+}
+
+div.browse {
+	display: none;
+}
+
+/*************/
+/*file layout*/
+/*************/
+.ds-file-items{min-height:100px;padding:4px 8px 8px 4px;}
+.file-icon{position:absolute; left:0;width:100px;padding-left:8px;}
+.file-icon img{border:0px;}
+.file-meta{position:relative; margin-left:110px;}
+.artifact-preview img{    
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+  border:0px;  
+  margin-right:8px; 
+}       
+.file-icon-thumb{
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+}
+
+/*
+div#ds-footer {
+	clear: both;
+	width: 100%;
+	padding: 0px;
+	height: 70px;
+        text-align: right;
+}
+
+div#ds-footer p {
+	clear: both;
+	padding-right: 5px;
+	margin-top: 10px;
+        text-align: right;
+}
+
+div#ds-footer-links{
+	clear: both;
+	padding-left: 25px;
+	margin-top: 10px;
+}
+*/
+
+div#ds-footer {
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 40px;
+	float: right;
+	width: 100%;
+	border-top: 1px solid #000000;
+}
+
+div#ds-footer-logo {
+	float: right;
+	clear: both;
+	position:relative;
+	top:10px;
+	right:2px;
+	height: 40px;
+	width: 10px;
+	background-image: url("http://www.lib.utexas.edu/images/utdirect-logo.jpg");
+	background-repeat: no-repeat;
+	background-position: 0% 30%;
+	color: inherit;
+	background-color: white;
+}
+
+div#ds-footer p {
+	width: 100%;
+	position: relative;
+	top: 0px;
+	right: 10px;
+	text-align: right;
+	padding: 5px;
+	font-size: smaller;
+}
+
+div#ds-footer-links {
+	position: relative;
+	top: 0px;
+	right: 0px;
+	padding-right: 5px;
+	text-align: left;
+	font-size: 1.2em;
+}
+
+div#ds-footer-links a {
+	text-decoration:none;
+	color:#111111;
+	font-size:10px;
+}
+
+div#ds-footer a#ds-logo-link {
+	text-decoration: none;
+}
+
+
+
+div.pagination {
+	position: relative;
+	height: 45px;
+	padding: 0px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+div.pagination-masked {
+	position: relative;
+	height: 45px;
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+p.pagination-info {
+	position: relative;
+	left: 10px;
+	top: -5px;
+	width: 100%;
+	text-align: center;
+	padding: 1px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 7px;
+	padding-bottom: 0px;
+	float: none;
+}
+
+ul.pagination-links {
+	position: relative;
+	text-align: center;
+	top: -24px;
+	right: 7px;
+	width: 100%;
+}
+
+.pagination-links li {
+	list-style: none;
+	display: inline;
+	margin-right: 0px;
+}
+
+a.previous-page-link {
+	position: absolute;
+	left: 10px;
+	top: 20px;
+}
+
+a.next-page-link {
+	position: absolute;
+	right: 10px;
+	top: 20px;
+}
+
+.item-view-toggle {
+	margin-top: 30px;
+}
+
+.citation {
+	padding: 5px 5px 5px 10px;
+	overflow: hidden;
+}
+
+div.ds-logo-wrapper {
+    float: right;
+    padding: 10px;
+    font-size: 1px;
+    width: 45%;
+    margin-bottom: 2%;
+    text-align: center; 
+}    
+
+img.logo {
+    max-width: 200px;
+    max-height: 200px;
+        
+    margin-left: auto;
+    margin-right: auto;
+    
+    vertical-align: middle;
+}    
+
+p.copyright-text {
+    margin-top: 30px;
+    font-style: italic;
+    text-align: center;
+} 
+
+ul.ds-artifact-list {
+	padding: 0px;
+	list-style-type: none;
+	margin: 0px;
+	float: left;
+	width: 100%;
+}
+
+ul.ds-artifact-list li {
+	float: left;
+	clear: both;
+	width: 100%;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+
+ul.ds-artifact-list li img {
+	border: 0px;
+}
+
+ul.ds-artifact-list li  div {
+	float: left;
+}
+
+ul.ds-artifact-list li div.artifact-description {
+	float: left;
+	clear: right;
+	margin-top: 0px;
+	padding: 0 5px;
+	width: 77%;
+}
+
+ul.ds-artifact-list li div.artifact-title {
+	float: left;
+	clear: both;
+}
+
+ul.ds-artifact-list li div.artifact-info {
+	float: left;
+	clear: both;
+	margin-left: 10px;
+	width: 100%;
+}
+
+ul.ds-artifact-list li div.artifact-links {
+	display: block;
+	float: left;
+	clear: both;
+	width: 50%;
+}
+
+ul.ds-artifact-list li.branded {
+	padding-left: 50px;
+}
+
+ul.ds-artifact-list li div.artifact-preview {
+	float: right;
+}
+
+ul.ds-artifact-list li div.artifact-grantor {
+	float: left;
+	margin-left: 7px;
+        margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.artifact-links {
+	margin: 0px;
+	margin-top: 7px;
+}
+
+.artifact-links a {
+	margin-right: 20px;
+}
+
+table {
+	width: 100%;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 3px 10px 5px 10px;
+	border: none;
+	font-size: inherit;
+}
+
+* .first-cell {
+	vertical-align: middle;
+	text-align: center;
+}
+
+th {
+	padding: 4px 10px;
+}
+
+.subheader th {
+	padding-left: 5px;
+	font-weight: 100;
+}
+
+.indent {
+	padding-left: 35px;
+	padding-right: 0;
+}
+
+.doubleIndent {
+	padding-left: 55px;
+	padding-right: 0;
+}
+
+th.indent {
+	padding-left: 30px;
+	padding-right: 0;
+}
+
+th.doubleIndent {
+	padding-left: 50px;
+	padding-right: 0;
+}
+
+fieldset {
+	border: 0px;
+}
+
+
+
+.file-list td {
+	text-align: center;
+}
+
+a.image-link img {
+	border: none;
+}
+
+
+
+fieldset.ds-checkbox-field,fieldset.ds-radio-field {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+fieldset.ds-checkbox-field legend,fieldset.ds-radio-field legend {
+	display: none;
+}
+
+fieldset.ds-checkbox-field label,fieldset.ds-radio-field label {
+	display: block;
+}
+
+
+fieldset.ds-form-list {
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
+
+
+fieldset.ds-form-list ol {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+li.ds-form-item {
+	float: left;
+	clear: both;
+}
+
+fieldset.ds-form-list legend {
+	margin-left: 10px;
+}
+
+fieldset.thick legend {
+	padding-left: 10px;
+	padding-right: 30px;
+}
+
+fieldset.ds-form-sublist {
+	padding: 0;
+	margin: 5px;
+}
+
+fieldset.ds-form-list ol {
+	list-style-type: none;
+}
+
+form.ds-interactive-div fieldset.ds-form-sublist ol {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+form.ds-interactive-div fieldset.ds-form-sublist legend {
+	margin-left: 10px;
+	padding: 0;
+	border: 0;
+}
+
+/* Row-level hierarchy */
+form.ds-interactive-div li.ds-form-item {
+	display: block;
+	padding: 5px 0;
+	width: 100%;
+}
+
+div.ds-form-content {
+	float: left;
+	clear: right;
+	display: block;
+	padding: 7px;
+	width: 400px;
+}
+
+span.ds-form-label,label.ds-form-label {
+	display: block;
+	float: left;
+	clear: left;
+	padding: 5px 20px 5px 10px;
+	width: 115px;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+label.ds-composite-component {
+	display: block;
+	float: left;
+	padding: 0px 5px 0 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+span.error {
+	display: block;
+	margin: 0px;
+	margin-top: 2px;
+}
+
+span.field-help {
+	display: block;
+	margin-top: 2px;
+}
+
+span.composite-help {
+	display: block;
+	text-align: left;
+}
+
+div.spacer {
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+	clear: both;
+}
+
+*.hidden {
+	display: none;
+	visibility: none
+}
+
+h1.ds-div-head,h2.ds-div-head,h3.ds-div-head {
+	clear: both;
+}
+
+div#ds-system-wide-alert {
+	padding: 6px;
+	margin: 10px 30px 10px 30px;
+}
+
+ul.ds-progress-list {
+	margin: 0 0 10px 0;
+	padding: 2px 0px;
+	text-align: center;
+}
+
+ul.ds-progress-list li {
+	overflow: hidden;
+	display: inline;
+	padding: 4px 3px;
+	margin-top: 2px;
+	margin-left: 3px;
+	max-width: 400px;
+	line-height: 20px;
+}
+
+ul.ds-progress-list li.button {
+	border: none;
+	padding: 1px !important;
+	margin-top: 2px;
+	margin-left: 0px !important;
+}
+
+ul.ds-progress-list li.arrow {
+	border: none;
+	background: none;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+form.search li {
+	margin: 0;
+	padding: 0px !important;
+}
+
+div.detail-view {
+	padding: 5px 5px 5px 6px;
+}
+
+p.button-list {
+	margin-top: 3px;
+	padding-bottom: 0;
+}
+
+ul.collection-browse,ul.community-browse {
+	display: none;
+}
+
+*.collection-search-browse td,*.community-search-browse td {
+	white-space: nowrap;
+}
+
+*.collection-search-browse h4,*.community-search-browse h4 {
+	display: none;
+}
+
+*.collection-search-browse select,*.community-search-browse select {
+	width: auto;
+	max-width: 200px;
+}
+
+*.collection-search-browse input,*.community-search-browse input {
+	width: auto;
+	max-width: 195px;
+}
+
+*.button-list input {
+	width: auto;
+}
+
+div.ds-logo-wrapper {
+	float: right;
+	padding: 5px 0px 5px 10px;
+}
+
+table.ds-gloss-list {
+	border: none;
+	width: auto;
+	font-size: inherit;
+}
+
+*.ds-gloss-list td {
+	padding: 5px;
+}
+
+table.ds-gloss-list td ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.ds-static-div {
+	border: 1px solid white;
+	clear: both;
+}
+
+div.ds-static-div.secondary{
+        clear: none;
+}
+
+span.ds-composite-field {
+	display: table-row;
+	padding: 2px;
+}
+
+*.ds-composite-field .ds-composite-component {
+	display: table-cell;
+	text-align: left;
+	width: auto;
+	padding-right: 10px;
+}
+
+*.ds-composite-field input,*.ds-composite-field textarea,*
+	.ds-composite-field select {
+	margin-right: 5px;
+	margin-bottom: -2px;
+}
+ 
+form.ds-interactive-div.primary {
+	float: left;
+	clear: both;
+	padding: 0px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+p {
+	padding: 0;
+	margin: 6px;
+}
+
+div.notice {
+	padding: 6px;
+	text-align: center;
+	margin: 10px 30px 10px 30px;
+}
+
+div.notice.success p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+div.notice.failure p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+div.license-text {
+	padding: 20px;
+	margin: 20px;
+	margin-top: 5px;
+}
+
+div#NoticeTransformer_div_general-message h1.ds-div-head {
+	position: absolute;
+	top: 11px;
+	left: 42px;
+	margin: 0;
+	padding: 0 5px;
+}
+
+p.hidden {
+	display: none;
+}
+
+div#css_VerifyPersonalInformation_div_main{
+  width: 100%;
+}
+
+
+div.inline-help{
+  width: 20%;
+  float: right;
+  clear: right;
+}
+
+form.css-form{
+  width: 77%;
+  float: left;
+  clear: left;
+}
+
+div.help{
+   background-color: #ffffcc; 
+   color: #666666;
+   padding: 20px;
+   margin-top: 5px;
+   margin-bottom: 60px;
+   font-size: 110%;
+   border: 1px solid silver;
+}
+
+div#ds-options ul{
+   padding-left: 7px;
+
+}
+
+
+p.hidden {
+	display: none;
+}
+
+ul.horizontal
+{
+list-style-type: none;
+padding: 0px;
+padding-left: 5px;
+padding-bottom: 24px;
+margin: 0px;
+}
+
+ul.horizontal li
+{
+float: left;
+height: 21px;
+margin: 2px 2px 0px 2px;
+}
+
+ul.horizontal a
+{
+float: left;
+display: block;
+padding: 4px;
+}
+
+h3#ds-search-option-head {
+	display: none;
+}

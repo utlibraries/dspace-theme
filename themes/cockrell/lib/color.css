@@ -1,0 +1,336 @@
+/*
+  color.css
+
+  Version: $Revision: 1.15 $
+ 
+  Date: $Date: 2006/07/27 22:54:53 $
+ 
+  Copyright (c) 2002-2005, Hewlett-Packard Company and Massachusetts
+  Institute of Technology.  All rights reserved.
+ 
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions are
+  met:
+ 
+  - Redistributions of source code must retain the above copyright
+  notice, this list of conditions and the following disclaimer.
+ 
+  - Redistributions in binary form must reproduce the above copyright
+  notice, this list of conditions and the following disclaimer in the
+  documentation and/or other materials provided with the distribution.
+ 
+  - Neither the name of the Hewlett-Packard Company nor the name of the
+  Massachusetts Institute of Technology nor the names of their
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+ 
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+  OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+  ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+  TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+  USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+  DAMAGE.
+*/ /*** good ***/
+body {
+	color: black;
+	
+	background-color: white;
+}
+div#ds-header{
+	  background-color: white;
+}
+
+div#ds-header  a span#ds-header-logo{
+}
+
+div#ds-main {
+	color: inherit;
+	background-color: inherit;
+}
+
+a{
+   color: #0d2b88;	
+}
+
+
+
+#contact_us {
+	color: black;
+}
+
+#contact_us a {
+	color: black;
+}
+
+
+ul#ds-trail {
+	background-color: #0d2b88;
+    border-top: 0px solid white;
+
+}
+
+
+li.ds-trail-link {
+	color: white;
+}
+
+li.ds-trail-link a {
+	color: white;
+}
+
+div#ds-user-box p {
+	color: white;
+	background-color: inherit;
+}
+
+div#ds-user-box a {
+	color: black;
+	background-color: inherit;
+}
+
+div#ds-body h1 {
+	color: black;
+}
+
+div#ds-body h2 {
+	color: rgb(208, 92, 0);
+}
+
+div#ds-body h3 {
+	color: rgb(208, 92, 0);
+}
+
+
+.alphabet a {
+	color: #0d2b88;
+}
+
+.alphabet a:hover {
+	color: rgb(208, 92, 0);
+}
+
+div#ds-options h3 {
+	color: black;
+	border-top: 1px solid #888888;
+}
+
+div#ds-options h4 {
+	color: black;
+}
+
+div#ds-options li {
+	color: black;
+}
+
+div#ds-options a{
+   color: #0d2b88;	
+}
+
+div#ds-options a:hover{
+	color: rgb(208, 92, 0);
+}
+
+
+div#ds-search-option a {
+	color: #0d2b88;
+}
+
+div.ds-option-set {
+	/*border-left: 1px solid rgb(208, 92, 0);*/
+}
+
+.collection .search,.community .search {
+	background-color: #f0f0f0;
+	border: 1px solid lightgray;
+}
+
+div.filter-search-results .filter-search {
+	background-color: #f0f0f0;
+	border: 1px solid lightgray;
+}
+
+.result-query {
+	color: black;
+}
+
+div#ds-footer {
+		  background-color: white;
+                  border-top: 1px solid #888888;
+}
+
+div#ds-footer {
+	color: black;
+}
+
+div#ds-footer a{
+  color: #0d2b88;
+}
+
+div.pagination {
+	background-color: #f0f0f0;
+	border: 1px solid lightgray;
+}
+
+div.pagination-masked {
+	background-color: #f0f0f0;
+	border: 1px solid lightgray;
+}
+
+
+a.next-page-link {
+	position: absolute;
+	right: 10px;
+	top: 20px;
+}
+
+
+
+ul.ds-artifact-list {
+	clear: both;
+	border: 1px solid lightgray ;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+ul.ds-artifact-list li.odd {
+	background-color: #f0f0f0;
+}
+
+ul.ds-artifact-list li.even {
+	background-color: #e0e0e0;
+}
+
+table {
+	border: 2px solid lightgray;
+}
+
+tr.ds-table-header-row {
+	background-color: darkgray;
+        color: white;
+}
+
+tr.ds-table-header-row.subheader {
+	background-color: silver;
+}
+
+tr.ds-table-row.odd {
+	background-color: #f0f0f0;
+}
+
+tr.ds-table-row.even {
+	background-color: #e0e0e0;
+}
+
+td {
+	background-color: inherit;
+	color: inherit;
+}
+
+fieldset.ds-form-list {
+	background-color: #e0e0e0;
+	border: 1px solid #e0e0e0;
+}
+
+fieldset.ds-form-list.thick {
+	border-top: 22px solid #e0e0e0;
+}
+
+fieldset.ds-form-list legend {
+	color: rgb(208, 92, 0);
+}
+
+fieldset.ds-form-list li.odd {
+	background-color: #e0e0e0;
+}
+
+fieldset.ds-form-list li.even {
+	background-color: #f0f0f0;
+}
+
+fieldset.ds-form-list li.last {
+	border: 1px solid darkgray;
+	background-color: darkgray;
+}
+
+
+
+fieldset.ds-form-list li.sublist {
+	background-color: transparent;
+}
+
+fieldset.thick legend {
+	background-color: darkgray;
+	border-top: 6px solid darkgray;
+}
+
+fieldset.ds-form-sublist {
+	border-top: 1px solid #e0e0e0 ;
+	border: 1px solid silver ;
+}
+
+fieldset.ds-form-sublist legend {
+	color: rgb(208, 92, 0);
+	background-color: transparent;
+}
+
+fieldset.ds-form-sublist.thick legend {
+	color: rgb(208, 92, 0);
+}
+
+label.ds-composite-component {
+	color: rgb(208, 92, 0);
+}
+
+span.error {
+	color: red;
+}
+
+span.field-help {
+	color: gray;
+	background-color: inherit;
+}
+
+input.error,textarea.error,select.error {
+	background-color: rgb(255, 239, 242);
+	border-color: red;
+}
+
+span.composite-help {
+	color: black;
+}  
+
+a:hover{
+	color: rgb(208, 92, 0);
+}
+
+
+ul.horizontal
+{
+border-bottom: 1px solid rgb(208, 92, 0);
+}
+
+ul.horizontal li
+{
+background-color: rgb(239, 214, 194);
+border: 1px solid rgb(208, 92, 0);
+}
+
+ul.horizontal li a{
+  text-decoration: none;
+}
+
+ul.horizontal li span.bold a
+{
+border-bottom: 1px solid white;
+background-color: white;
+}
+
+ul.horizontal li span.bold a { color: black; }
+
+ul.horizontal a:hover { background: rgb(223, 176, 139); text-decoration:underline; color: black;}

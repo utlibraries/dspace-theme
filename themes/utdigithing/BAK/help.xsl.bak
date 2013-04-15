@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Author: Steven Williams
+    
+-->    
+
+<xsl:stylesheet xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
+	xmlns:dri="http://di.tamu.edu/DRI/1.0/"
+	xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:xlink="http://www.w3.org/TR/xlink/"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:dim="http://www.dspace.org/xmlns/dspace/dim"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml"
+	xmlns:mods="http://www.loc.gov/mods/v3"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns="http://www.w3.org/1999/xhtml"
+	exclude-result-prefixes="mets xlink xsl dim xhtml mods dc">
+    
+
+    <xsl:output indent="yes"/>
+
+	<xsl:template name="helpURI">
+		<xsl:text>Help</xsl:text>
+	</xsl:template>
+    
+    <xsl:template name="helpBreadcrumb">
+		<li class="ds-trail-link first-link"><a href="/">Repository Home </a></li><li class="ds-trail-link">Help</li>                 		
+	</xsl:template>
+	
+    <xsl:template name="helpBody">
+
+                 <!-- custom content for url 'help' -->
+                    <h1 class="ds-div-head">
+                        <div class="sub-header-image"><img class="sub-header-image-corner"
+                            src="themes/utdigithing/images/sub-header-lft-corner.jpg" alt=""/>Help</div></h1> 
+                    
+                    
+                    
+                    <p><a name="top"></a><br />
+                        <strong><u><a href="#browse">Browse</a></u></strong></p>
+                        <p><strong><u><a href="#search">Search</a></u></strong></p>
+                        <p><strong><u><a href="#advanced">Advanced Search</a></u></strong></p>
+                        <p><strong><u><a href="#communities">Communities</a></u></strong></p>
+                        <p><strong><u><a href="#collections">Collections</a></u></strong></p>
+                        <p><strong><u><a href="#login">Login to the Repository</a></u></strong></p>
+                        <p><strong><u><a href="#submit">Submit to the Repository</a></u></strong></p>
+                        <p><strong><u><a href="#handles">Handles</a></u></strong></p>
+                        <p><strong><u><a href="#myaccount">My Account</a></u></strong></p>
+                        <p><strong><u><a href="#editprofile">Edit Profile</a></u></strong></p>
+                        <p><strong><u><a href="#subscribeemail">Subscribe to E-mail alerts</a></u></strong></p>
+                        <p><strong><u><a href="#subscriberss">Subscribe to RSS Feeds</a></u></strong></p>
+                        <p><strong><u><a href="#furtherassistance">Further Assistance</a></u></strong>
+                    </p>
+                    <p>
+                        This page provides help for searching,  browsing, and submitting to the UT Digital Repository.</p>
+                    <p>
+                        The  UT Digital Repository captures, distributes and preserves digital research  products. Here you can find articles, working papers, preprints, technical  reports, conference papers and data sets in various digital formats. Content  grows daily as new communities and collections are added to the Repository.</p>
+                    <p>
+                        The  Repository content is organized around Communities. Within each community there  can be an unlimited number sub-communities and an unlimited number of  collections. Each collection may contain an unlimited number of works.</p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><a name="browse" id="browse"></a><strong>BROWSE </strong><a href="#top">top</a> </p>
+                    <p><strong>Browse</strong> allows you to go through a  list of works in some specified order:</p>
+                    <p><strong>Browse  by Community/Collection</strong> takes you through the communities in alphabetical order and allows you to see  the sub-communities and collections within each community.</p>
+                    <p><strong>Browse  by Date Created </strong>allows  you to move through a list of all works in the Repository in chronological  order by publication date (if previously published) or date of creation.</p>
+                    <p><strong>Browse  by Author</strong> allows you to move through an alphabetical list of all authors of works in the  Repository.</p>
+                    <p><strong>Browse  by Title</strong> allows you to move through an alphabetical list of all titles of works in the  Repository.</p>
+                    <p><strong>Browse  by Subject </strong>allows  you to move through an alphabetical list of subjects/tags assigned to works in  the Repository.</p>
+                    <p><strong>Browse by Department</strong> allows you to move through  an alphabetical list of academic departments and research units on campus  assigned to works in the Repository.</p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><a name="search" id="search"></a><strong>SEARCH</strong> <a href="#top">top</a><br />
+                        To  search all of the Repository, use the search box at the top of the navigation  bar on the right (or the search box in the middle of the home page)</p>
+                    <p align="center"><img src="/themes/utdigithing/images/help/searchrep.JPG" alt="Search Repository Screenshot" /></p>
+                    <p> To  limit your search to a specific community or collection, navigate to that  community or collection and use the search bar on that page.</p>
+                    <p align="center"> <img src="/themes/utdigithing/images/help/searchcoll.JPG" alt="Search Collections Screenshot" /></p>
+                    <p>The  Repository uses the<strong> Jakarta Lucene </strong>search engine. Here are some search  hints:</p>
+                    <p><strong>What  is searched in the general keyword search<br />
+                    </strong>The word(s)  you enter in the search box will be searched against the title, author, subject  abstract, series, sponsor and identifier fields of each work's record.</p>
+                    <p><strong>What  is not searched - Stop Words<br />
+                    </strong>Thesearch  engine ignores certain words that occur frequently in English, but do not add  value to the search. These are:</p>
+                    <p align="center">
+                        &quot;a&quot;, &quot;and&quot; , &quot;are&quot; ,  &quot;as&quot; , &quot;at&quot; , &quot;be&quot; , &quot;but&quot; ,  &quot;by&quot; , &quot;for&quot; , &quot;if&quot; , &quot;in&quot; ,  &quot;into&quot;, <br />
+                        &quot;is&quot; ,&quot;it&quot; ,&quot;no&quot; ,  &quot;not&quot; , &quot;of&quot; , &quot;on&quot; , &quot;or&quot; ,  &quot;such&quot;, &quot;the&quot; , &quot;to&quot; , &quot;was&quot;</p>
+                    <p><strong>Truncation<br />
+                    </strong>Use an  asterisk (*) after a word stem to get all hits having words starting with that root,  for example: <br />
+                        <img src="/themes/utdigithing/images/help/search1.gif" alt="Screenshot: Search" /> will retrieve selects, selector, selectman, selecting. </p>
+                    <p><strong>Stemming <br />
+                    </strong>The search  engine automatically expands words with common endings to include plurals, past  tenses ...etc.</p>
+                    <p><strong>Phrase  Searching</strong><br />
+                        To search using multiple words as a phrase, put quotation marks (&quot;) around  the phrase.</p>
+                    <p align="center"><img src="/themes/utdigithing/images/help/search8.jpg" alt="Screenshot: Search for Phrase"/></p>
+                    <p><strong>Exact  word match</strong><br />
+                        Put a plus (+) sign before a word if it MUST appear in the search result. For  instance, in the following search the word &quot;training&quot; is optional,  but the word &quot;dog&quot; must be in the result. </p>
+                    <p><img src="/themes/utdigithing/images/help/search2.gif" alt="Screenshot: Search for exact words" /></p>
+                    <p><strong>Eliminate  works with unwanted words<br />
+                    </strong>Put a minus  (-) sign before a word if it should not appear in the search results.  Alternatively, you can use <strong>NOT</strong>. This can limit your search to eliminate  unwanted hits. For instance, in the search <br />
+                        <img src="/themes/utdigithing/images/help/search3.jpg" alt="Screenshot: Search with not appear" /> or  <img src="/themes/utdigithing/images/help/search4.jpg" alt="OR Screenshot: Search with not appear" />
+                        you  will get works containing the word &quot;training&quot;, except those that also  contain the word &quot;cat&quot;.</p>
+                    <p><strong>Boolean  searching</strong> <br />
+                        The  following Boolean operators can be used to combine terms. Note that they must  be CAPITALIZED!</p>
+                    <p>
+                    <strong>AND</strong> - to limit searches to find  works containing all words or phrases combined with this operator, e.g.<br />
+                    <img src="/themes/utdigithing/images/help/search5.jpg" alt="Screenshot: Search with AND" /> will  retrieve all works that contain BOTH the words &quot;cats&quot; and  &quot;dogs&quot;.<br />
+                    <strong>OR</strong> - to enlarge searches to  find works containing any of the words or phrases surrounding this operator <br />
+                    <img src="/themes/utdigithing/images/help/search6.jpg" alt="Screenshot: Search with OR" /> will  retrieve all works that contain EITHER the words &quot;cats&quot; or  &quot;dogs&quot;.<br />
+                    <strong>NOT  - </strong>to exclude  works containing the word following this operator, e.g. <br />
+                    <img src="/themes/utdigithing/images/help/search4.jpg" alt="Screenshot: Search with NOT" /> will  retrieve all works that contain the word &quot;training&quot; EXCEPT those also  containing the word &quot;cat&quot;.<br />
+                    Parentheses  can be used in the search query to group search terms into sets, and operators  can then be applied to the whole set, e.g.<br />
+                    <img src="/themes/utdigithing/images/help/search7.jpg" alt="Screenshot: Search with Parentheses" /></p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><a name="advanced" id="advanced"></a><strong>ADVANCED SEARCH</strong> <a href="#top">top</a></p>
+                    <p>
+                        The  advanced search page allows you to specify the fields you wish to search, and  to combine these searches with the Boolean &quot;AND&quot;, &quot;OR&quot; or  &quot;NOT&quot;. <br />
+                        You  can restrict your search to a community by clicking on the arrow to the right  of the top box. If you want your search to encompass all of The Repository,  leave that box in the default position.</p>
+                    <p><img src="/themes/utdigithing/images/help/advsearch.JPG" alt="Screenshot: Advanced Search" /><br />
+                        Then  select the field to search in the left hand column and enter the word or phrase  you are searching in the right hand column. You can select the Boolean operator  to combine searches by clicking on the arrow to the right of the  &quot;AND&quot; box. <br />
+                        <strong>Note:  You must use the input boxes in order. If you leave the first one blank your  search will not work. </strong> </p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><a name="communities" id="communities"></a><strong>COMMUNITIES </strong><a href="#top">top</a> </p> 
+                    <p>
+                        The  Repository content is organized around Communities. Within each community there  can be an unlimited number of sub-communities and an unlimited number of  collections. Each collection may contain an unlimited number of works. This  organization gives The Repository the flexibility to accommodate differing  needs of communities by allowing them to </p>
+                    <ul type="disc">
+                        <li>Decide on policies such  as: <br /><br />
+ 
+                        -  - who contributes content<br /><br />
+                        -  - whether there will be a review process <br /><br />
+                        -  - who will have access <br /><br /></li>
+
+                        <li>Determine workflow -       reviewing, editing, metadata</li>
+                        <li>Manage collections </li>
+                    </ul>
+                    <p>Each  community has its own entry page displaying information, news and links  reflecting the interests of that community, as well as a descriptive list of  collections within the community.<br />
+                        UT Faculty/Researcher Works is a community where  individuals whose departments have not established a community within the UT  Digital Repository can deposit their research. </p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><a name="collections" id="collections"></a><strong>COLLECTIONS </strong><a href="#top">top</a></p>
+                    <p>
+                        Communities  can maintain an unlimited number of collections in The Repository. Collections  can be organized around a topic, or by type of information (such as working  papers or datasets) or by any other sorting method a community finds useful in  organizing its digital works. Collections can have different policies and  workflows.<br />
+                        Each  Repository collection has its own entry page displaying information, news and  links reflecting the interests of users of that collection.</p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><a name="login" id="login"></a><strong>LOGIN TO THE REPOSITORY </strong><a href="#top">top</a></p>
+                    <p>
+                        <strong>You  may Log In to the system if you:</strong> </p>
+                    <ul type="disc">
+                        <li>wish to subscribe to a       collection and receive e-mail updates when new works are added</li>
+                        <li>wish to go to the       &quot;My Account&quot; page that tracks your subscriptions and other       interactions with the Repository requiring authorization (if you are a       submitter for a collection, for instance.)</li>
+                    </ul>
+                    <p>When  you access an area of The Repository that requires authorization, the system  will require you to log in with your UT EID and password. Some functions, such  as content submission, require authorization. Contact Uri Kolodney for  authorization at <a href="mailto:utdr-collections@utlists.utexas.edu">utdr-collections@utlists.utexas.edu</a></p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><a name="submit" id="submit"></a><strong>SUBMIT TO THE REPOSITORY </strong><a href="#top">top</a></p>
+                    <p>
+                        The submission process is the function that enables users to add a work to the  Repository. The process of submission includes uploading the file(s) comprising  the digital work and filling out information about the work on a form. Each  community sets its own submission policy.<br />
+                        Submitting  a work to the Repository is a multi-step process. At any point in the  submission process you can stop and save your work for a later date by clicking  on the “cancel/save” button at the bottom of the page. The data you have  already entered will be stored until you return to the submission, and you will  be reminded on your &quot;My Account&quot; page that you have a submission in  process. If somehow you accidentally exit from the submission process, you can  always resume from your &quot;My Account&quot; page. You can also cancel your  submission at any point. </p>
+                        <p><a name="choosecollection" id="choosecollection"></a><strong>Step #1: Login to the Repository using your UT EID and  password</strong></p>
+                    <p align="center"><img src="/themes/utdigithing/images/help/login.JPG" alt="Screenshot: Login" /></p>
+                       <p> <strong>Step#2:  Click on Submissions in My Account</strong></p>
+                    <p align="center"><img src="/themes/utdigithing/images/help/myacct.JPG" alt="Screenshot: My Account" /></p>
+                       <p> <strong>Step#3:  Click “Start a New Submission” </strong></p>
+                        <p><img src="/themes/utdigithing/images/help/newsub.JPG" alt="Screenshot: New Submission" /></p>
+                        <p><strong>Step#4: Select a  Collection to Submit to</strong></p>
+                        <p><img src="/themes/utdigithing/images/help/subcoll.JPG" alt="Screenshot: Select a Collection to Submit" /></p>
+                           <p>
+                        (If  you are denied permission to submit to the collection you choose, please  contact the Repository Curator at <a href="mailto:utdr-collections@utlists.utexas.edu">utdr-collections@utlists.utexas.edu</a> for more information.)<br />
+                        Click  on the &quot;<strong>next</strong>&quot; button to  proceed, or &quot;cancel/save&quot; button to stop and save or cancel your  submission.</p>
+                        <p><strong>Step#5: Begin Work Submission</strong></p>
+                        <p>At  the top of the submission pages you will find 4 buttons representing each step  in the submission process. These buttons will change color as you move through  the process. You can also use these buttons to move back and forth within the  submission process by clicking on them. You will not lose data by moving back  and forth. </p>
+                        <p><img src="/themes/utdigithing/images/help/sub.JPG" alt="Screenshot: Begin Work Submission" /></p>
+                        <p><strong>Submission: License</strong></p>
+                        <p>The  UT Digital Repository requires agreement to this non-exclusive distribution  license before your item can appear in the Repository. Please read the license  carefully and refer to the <u>UT Digital Repository  Copyright Policy</u>. </p>
+                        <p><strong>Submission:  Upload File(s)</strong></p>
+                    <p><img src="/themes/utdigithing/images/help/upload.JPG" alt="Screenshot: Upload" /><br />
+                        Click  on the &quot;browse&quot; button and a window showing your files will appear.  You can navigate through your directories and folders until you find the  correct file to upload. Double-click on the file name you wish to upload, and  the name will be entered into the input box.<br />
+                        You  may also enter a brief description of the file in the &quot;File  Description&quot; box, for example &quot;Main article,&quot; or  &quot;Experiment data readings.&quot; You will be able to fully describe the  item later in the deposit process.<br />
+                        Click  the &quot;Upload File&quot; button to proceed to the next screen. </p>
+                        <p><strong>Uploading Multiple Files at Once</strong></p>
+                        <p><strong>You  should <em>not</em> upload multiple files at once in cases similar to the following:</strong> </p>
+                    <ul type="disc">
+                        <li>the files you are uploading have different authors, titles, or publication information</li>
+                        <li>you want each of the files to have a different persistent link within the Repository</li>
+                        <li>you want to upload all of your research papers</li>
+                    </ul>
+                    <p>In  these cases, you should upload each file one by one, in order to provide the  best access to each individual file. If you would like to upload a batch of  files (500 files or more), contact the Repository Curator, Uri Kolodney at <a href="mailto:utdr-collections@utlists.utexas.edu">utdr-collections@utlists.utexas.edu</a> for assistance. <br />
+                        If  you have a file that is larger than 512mb you may experience difficulty  uploading. Please contact Uri Kolodney at <a href="mailto:utdr-collections@utlists.utexas.edu">utdr-collections@utlists.utexas.edu</a> for assistance uploading large files.<br />
+                        <strong>You  may wish to upload multiple files at once if:</strong> </p>
+                    <ul type="disc">
+                        <li>the files are all related and make up a single research &quot;work&quot; (e.g. a single web page may consist of an HTML document and two images).</li>
+                        <li>the files rely on each other to function properly or be understood (e.g. an XML document may rely on a particular DTD or Schema to validate and understand it)</li>
+                    </ul>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><strong>Submission: Describe your  work</strong></p>
+                       <p> The  information you fill in on this screen will form the metadata (descriptive  information) record that will enable users to retrieve your work using search  engines. The richer the metadata, the more &quot;findable&quot; your work will  be, so please take the time to fill in as many fields as are applicable to your  work. <strong>Note:</strong> Some fields are  required. </p>
+                        <p><strong>Author(s)  or Creator(s)--Required</strong> </p>
+                        <p>This  can be a person, organization or service responsible for creating or  contributing to the content of the work. By clicking on the &quot;Add&quot;  button you can add as many authors as needed. Examples: <br />
+                        <img src="/themes/utdigithing/images/help/author.JPG" alt="Screenshot: Author" /><br />
+                        If the author is an organization, use the “Last Name” input  box for the organization name:<br />
+                        <img src="/themes/utdigithing/images/help/org.JPG" alt="Screenshot: Organization" /></p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><strong>Title--Required:</strong> <br />
+                        Enter  the full and proper name by which this work should be known. <br />
+                        <img src="/themes/utdigithing/images/help/title.JPG" alt="Screenshot: Title" /></p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><strong>Date--Required:</strong> If your work was previously  published or made public, enter the date of that event here. If your work was not previously published, enter the date  indicating when the work was considered finished or complete. You may leave  month and day blank if not known. <br />
+                        <img src="/themes/utdigithing/images/help/date.JPG" alt="Screenshot: Date" /></p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><strong>Publisher: </strong><br />
+                        If your work has been previously published, enter the name of the publisher.<br />
+                        <img src="/themes/utdigithing/images/help/publisher.JPG" alt="Screenshot: Publisher" /></p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><strong>Citation: </strong> <br />
+                        Enter  citation information for this work if it was a journal article or part of a  larger work, such as a book chapter. For <strong>journal articles</strong>, include the  journal title, volume number, date and pagination.<br />
+                        For <strong>book chapters</strong>, include the book title, place of publication,  publisher name, date and pagination.<br />
+                        <img src="/themes/utdigithing/images/help/citation.JPG" alt="Screenshot: Citation" /> </p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><strong>Department--Required:</strong><br />
+                        Select your department or affiliation from the pull down  menu. You must select one.</p>
+                    <p><img src="/themes/utdigithing/images/help/department.JPG" alt="Screenshot: Department" /></p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><strong>Series/Report  No.:</strong> <br />
+                        If  your work is part of a numbered series such as a technical report or working  paper, enter the Series name and the assigned number in the <strong>Report or Paper  No.</strong> input box. Examples: <br />
+                        <img src="/themes/utdigithing/images/help/series.JPG" alt="Screenshot: Series" /></p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><strong>Identifiers: </strong> <br />
+                        If  you know of a unique number or code that identifies this work in some system,  please enter it here. Click on the arrow to the right of the input box, and  select from one of the choices in the drop down menu. The choices refer to:<br />
+                        <strong>Govt.doc  # </strong>-  Government Document Number - e.g. NASA SP 8084<br />
+                        <strong>ISBN</strong> - International Standard Book Number - e.g. 0-1234-5678-9<br />
+                        <strong>ISSN</strong> - International Standard Serial Number - e.g. 1234-5678<br />
+                        <strong>ISMN</strong> - International Standard Music Number - e.g. M-53001-001-3<br />
+                        <strong>URI</strong> - Universal Resource Identifier - e.g..  http://repositories.lib.utexas.edu/help/submit.html<br />
+                        <strong>Other </strong>- An unique identifier assigned to the work using a system other  than the above<br />
+                        <img src="/themes/utdigithing/images/help/identifier.JPG" alt="Screenshot: identifier" /> </p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><strong>Type: </strong> <br />
+                        Select  the type of work (or genre) that best fits your work. To select more than one  value in the list, hold down the &quot;ctrl&quot; key. <br />
+                        <img src="/themes/utdigithing/images/help/type.JPG" alt="Screenshot: Type" /><br />
+                        <strong>Language:</strong> <br />
+                        Select  the language of the intellectual content of your work. If the default (English)  is not appropriate, click on the arrow on the right of the drop down box to see  a list of languages commonly used for publications, e.g.<br />
+                        <img src="/themes/utdigithing/images/help/lang.JPG" alt="Screenshot: Language" /><br />
+                        If  your work is not a text document and language is not an applicable as  description, then select the N/A choice.<br />
+                        <strong>Subject/Keywords/Tags—Required (at least one):</strong> <br />
+                        Please  enter as many keywords or tags as are appropriate to describe this work, from  the general to the specific. The more tags you provide, the more likely it is  that users will find this work in their searches. Use one input box for each tag.  You can get more input boxes by clicking on the &quot;Add&quot; button.  Examples: <br />
+                        <img src="/themes/utdigithing/images/help/subject.JPG" alt="Screenshot: Subject" /><br />
+                        Your  community may suggest the use of a specific vocabulary, taxonomy, or thesaurus.  If this is the case, please select your subject words from that list. Future  versions of The Repository may provide links to those lists. </p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><strong>Abstract:</strong> <br />
+                        You  can cut and paste an abstract into this box or you can type in the abstract.  There is no limit to the length of the abstract. We urge you to include an  abstract for the convenience of end-users and to enhance search and retrieval  capabilities.<br />
+                        <img src="/themes/utdigithing/images/help/abstract.JPG" alt="Screenshot: Abstract" /><br />
+                        <strong>Sponsors:</strong> <br />
+                        If  your work is the product of sponsored research, you can provide information  about the sponsor(s) here. This is a freeform field where you can enter any  note you like. Example:<br />
+                        <img src="/themes/utdigithing/images/help/sponsor.JPG" alt="Screenshot: Sponsor" /></p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><strong>Description:</strong> <br />
+                        Here  you can enter any other information describing the work you are submitting or  comments that may be of interest to users of the work.<br />
+                        <img src="/themes/utdigithing/images/help/description.JPG" alt="Screenshot: Description" /><br />
+                        Click  on the &quot;complete submission&quot; button to proceed, or click &quot;save  &amp; exit&quot; button to stop and either save or cancel your submission.</p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    
+                    <p><strong>Submission: Review Submission</strong><br />
+                        This  page lets you review the information you have entered to describe the work. To  correct or edit information, click on the corresponding button on the right, or  use the oval buttons in the progress bar at the <a href="#top">top</a> of the page to move around  the submission pages. When you are satisfied that the submission is in order,  click on the &quot;Next&quot; button to continue. <br />
+                        Click  on the &quot;Save &amp; Exit&quot; button to stop and save your data, or to  cancel your submission.</p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><strong>Submission: Submission  Complete </strong><a href="#top">top</a> <br />
+                        Now  that your submission has been successfully entered into The Repository system,  it will go through the workflow process designated for the collection to which  you are submitting. Some collections require the submission to go through  editing or review steps, while others may immediately accept the submission.  You will receive e-mail notification as soon as your work has become a part of  the collection, or if there is a problem with your submission. If you have  questions about the workflow procedures for a particular collection, please  contact the Repository Curator at <a href="mailto:utdr-collections@utlists.utexas.edu">utdr-collections@utlists.utexas.edu</a>.  You can check on the status of your submission by going to the My Account page.</p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><a name="handles" id="handles"></a><strong>HANDLES </strong><a href="#top">top</a> <br />
+                        When  your work becomes a part of the Repository it is assigned a persistent URL.  This means that, unlike most URLs, this identifier will not have to be changed  when the system migrates to new hardware, or when changes are made to the  system. The Repository is committed to maintaining the integrity of this  identifier so that you can safely use it to refer to your work when citing it  in publications or other communications. Our persistent URLs are registered  with the <a href="http://www.handle.net/">Handle System</a>, a comprehensive system for  assigning, managing, and resolving persistent identifiers, known as  &quot;handles,&quot; for digital objects and other resources on the Internet.  The Handle System is administered by the <a href="http://www.cnri.reston.va.us/">Corporation for  National Research Initiatives (CNRI)</a>, which undertakes,  fosters, and promotes research in the public interest.</p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><a name="myaccount" id="myaccount"></a><strong>MY ACCOUNT </strong><a href="#top">top</a><br />
+                        My Account is a personal page that is maintained for each member. This  page can contain a list of works that are in the submission process for a  particular member, or a task list of works that need attention such as editing,  reviewing, or checking. <br />
+                        If  you are an authorized Repository submitter or supervisor, or if you are a staff  member responsible for a Repository collection or metadata maintenance, you will  have a My Account page. Here you will find:</p>
+                    <ul type="disc">
+                        <li>a list of your in-progress submissions - from this list you can resume the submission process where you left off, or you can remove the submission and cancel the work.</li>
+                        <li>a list of the submissions which you are supervising or collaborating on</li>
+                        <li>a list of submissions that are awaiting your action (if you have a collection workflow role).</li>
+                        <li>a link to a list of works that you have submitted and that have already been accepted into The Repository. </li>
+                    </ul>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><a name="editprofile" id="editprofile"></a><strong>EDIT PROFILE </strong><a href="#top">top</a> <br />
+                        This  page allows you to change the information we have for you. You must be  authenticated with your log-in to change any of your personal information.</p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><a name="subscribeemail" id="subscribeeamil"></a><strong>SUBSCRIBE TO EMAIL ALERTS </strong><br />
+                        Users  can subscribe to receive daily e-mail alerts of new works added to collections.  Users may subscribe to as many collections as they wish. To subscribe:</p>
+                    <ul type="disc">
+                        <li>LOGIN to the Repository with your UT EID and password. The LOGIN link is in the navigation bar on the right of the home page</li>
+                        <li>Click on PROFILE under MY ACCOUNT</li>
+                        <li>Select a collection for which you would like to receive e-mail alerts, and click the ADD button (repeat for other collections)</li>
+                    </ul>
+                    <p><a name="subscriberss" id="subscriberss"></a><strong>RSS FEEDS</strong><br />
+                        Users  may subscribe to a collection’s RSS Feed. To do so, navigate to the collection  you’d like to subscribe to. <br />
+                        In  Internet Explorer click the orange RSS button on the toolbar:<br />
+                        <img src="/themes/utdigithing/images/help/IErss.JPG" alt="Screenshot: IE RSS" /><br />
+                        In  Firefox, click the orange RSS button in the address bar:<br />
+                        <img src="/themes/utdigithing/images/help/FfoxRSS.JPG" alt="Screenshot: Firefox RSS" /></p>
+                    <div align="center">
+                        <hr size="2" width="100%" align="center" />
+                    </div>
+                    <p><a name="furtherassistance" id="furtherassistance"></a><strong>FOR FURTHER ASSISTANCE</strong> <a href="#top">top</a><br />
+                        For  help with using The Repository and questions about your specific site, please  contact the Repository Curator, Uri Kolodney, at <a href="mailto:utdr-collections@utlists.utexas.edu">utdr-collections@utlists.utexas.edu</a>.</p>
+                    
+                    
+                    
+
+    </xsl:template>
+ 
+</xsl:stylesheet>

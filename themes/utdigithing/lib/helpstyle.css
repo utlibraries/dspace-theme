@@ -1,0 +1,48 @@
+h2 {
+	font: bold 18px Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	margin: 0px;
+	padding: 0px 0px 0px 15px;
+}
+
+
+
+
+.heading {
+	font-weight:bold;
+	}
+
+img {
+    border: none;
+}
+
+blockquote {
+	width:25%;
+	margin-left:0px;
+	text-align: center;
+	border:1px solid #000;
+	background:#ccc;
+	padding:5px;
+	}
+
+
+
+
+.section {
+        width:90%;
+        margin-bottom:50px;
+        border:1px solid #ccc;
+        background-color:#f7f7f7;
+        padding:10px;
+}
+
+.tocsection {
+        width:90%;
+        margin-bottom:50px;
+        background-color:#fff;
+        padding:10px;
+}
+
+.toplink {
+	text-align:right;
+	}
