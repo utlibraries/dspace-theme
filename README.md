@@ -1,4 +1,5 @@
 dspace-theme
 ============
 
-Theme root for UT Libraries DSpace
+Root for UT Libraries DSpace
+
