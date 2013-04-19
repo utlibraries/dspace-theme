@@ -113,6 +113,16 @@ Example of include: <xsl:import href="/themes/utdigithing/Structural.xsl" />
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	    <meta name="google-site-verification" content="dMaImZvljVx_BTbn0gV1LSz1j4gncUZbeKhBRriuan0" />
 	    <meta name="google-site-verification" content="8gFWHeU0d6OJFwD0ueMjSDud5PYnsTYW_1DoZ1dPxjA" />
+       	    <xsl:for-each select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[starts-with(@element,'citation_')]">
+                <meta>
+	            <xsl:attribute name="name">
+                        <xsl:value-of select="@element"/> 
+                    </xsl:attribute>
+                    <xsl:attribute name="content">
+                        <xsl:value-of select="."/>
+                    </xsl:attribute> 
+                </meta> 
+            </xsl:for-each>		  
             <link rel="shortcut icon" href="/themes/utdigithing/images/favicon.ico" type="image/x-icon" />
 	    <script type="text/javascript" src="/themes/utdigithing/inc/swfobject.js"><xsl:text> </xsl:text></script>
 	    <script type="text/javascript" src="/themes/utdigithing/inc/jquery-1.2.min.js"><xsl:text> </xsl:text></script>
