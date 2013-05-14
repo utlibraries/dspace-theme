@@ -267,4 +267,17 @@
         <mime-type>text/plain</mime-type>
     </mime-mapping>
 
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>Pages requiring HTTPS</web-resource-name>
+            <url-pattern>/profile</url-pattern>
+            <url-pattern>/register</url-pattern>
+            <url-pattern>/password-login</url-pattern>
+            <url-pattern>/ldap-login</url-pattern>
+        </web-resource-collection>
+        <user-data-constraint>
+            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+        </user-data-constraint>
+    </security-constraint>
+
 </web-app>
