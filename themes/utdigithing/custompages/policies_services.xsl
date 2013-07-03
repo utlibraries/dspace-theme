@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- 
+<!--
     Author: Steven Williams
-    
--->    
+
+-->
 
 <xsl:stylesheet xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
 	xmlns:dri="http://di.tamu.edu/DRI/1.0/"
@@ -22,13 +22,13 @@
 	 <xsl:template name="policies_servicesURI">
 			<xsl:text>UT Digital Repository Services</xsl:text>
 	 </xsl:template>
-    
+
     <xsl:template name="policies_servicesBreadcrumb">
-		   <li class="ds-trail-link first-link"><a href="/">Repository Home </a></li><li class="ds-trail-link">UT Digital Repository Services</li>               		
+		   <li class="ds-trail-link first-link"><a href="/">Repository Home </a></li><li class="ds-trail-link">UT Digital Repository Services</li>
 	 </xsl:template>
-	
+
     <xsl:template name="policies_servicesBody">
-    	
+
 		<div class="headwrapper">
 		<div class="headwrapper-left-crn"><xsl:text> </xsl:text> </div>
 			<h1>
@@ -36,7 +36,7 @@
 			</h1>
 			</div>
 			<div class="headerwrapper-bt"><xsl:text> </xsl:text></div>
-                   
+
                     <ol start="1" type="1">
 <li>
 <p>
@@ -44,18 +44,18 @@ The University of Texas Digital Repository (UTDR) was established to provide ope
 </p>
 </li>
                     </ol>
-                    
+
                     <ol start="2" type="1">
-                        <li><p>UT Digital Repository will adhere to  <a href="http://www.utexas.edu/cio/policies/web-privacy/">UT’s Web Privacy Policy</a>, and to the security standards for  <a href="http://www.utexas.edu/its/policies/opsmanual/secstd.php">Category II-Data</a>. </p> 
-			<p>The UT Digital Repository does not accept <a 
-href="http://www.utexas.edu/its/policies/opsmanual/cat-1data.php">Category 
+                        <li><p>UT Digital Repository will adhere to  <a href="http://www.utexas.edu/cio/policies/web-privacy/">UT’s Web Privacy Policy</a>, and to the security standards for  <a href="http://www.utexas.edu/its/policies/opsmanual/secstd.php">Category II-Data</a>. </p>
+			<p>The UT Digital Repository does not accept <a
+href="http://www.utexas.edu/its/policies/opsmanual/cat-1data.php">Category
 I Data</a>.</p>
                             <p>Users  of UT Digital Repository will adhere to <a href="http://www.utexas.edu/vp/it/policies/aup/"> UT’s Acceptable Use Policy</a>,  and to the <a href="http://www.lib.utexas.edu/usage_statement.html">Material Usage Statement</a>.  </p>
                         </li>
                     </ol>
                     <ol start="3" type="1">
-                        <li><p>UT Digital Repository uses <a href="/glossary#dspace">DSpace</a> software which supports a simple hierarchy structure,  <a href="/glossary#community-collection">Community/Collection</a>.  Communities  hold Collections, and Collections hold digital works. </p> 
-                            
+                        <li><p>UT Digital Repository uses <a href="/glossary#dspace">DSpace</a> software which supports a simple hierarchy structure,  <a href="/glossary#community-collection">Community/Collection</a>.  Communities  hold Collections, and Collections hold digital works. </p>
+
                             <p>There  are also UT Digital Repository staff roles associated with the Community/Collection  hierarchy.  </p>
                             <p>UT Digital Repository……..staff  role:  <a href="/glossary#repository-curator">Repository Curator</a></p>
                             <p style="margin-left:3em;"> Community………...staff  role:  <a href="/glossary#community-administrator">Community Administrator</a></p>
@@ -65,18 +65,18 @@ I Data</a>.</p>
                     <ol start="4" type="1">
                         <li>As outlined below, the  University of Texas Libraries offers <a href="#submission_services">submission services</a>, <a href="#community_services">Community creation services</a>, <a href="#access_services">access services</a>, and <a href="#preservation_services">preservation  services</a> to support the users of UT Digital Repository.  </li>
                     </ol>
-                    
+
                     <ol start="5" type="1">
                         <li><p><strong><a name="submission_services" id="submission_services"></a>Submission Services to Established Collections</strong></p>
-                            <p>UT Digital Repository offers an easy-to-use web based process for submitting digital works one by one to an established Collection.  All faculty are automatically authorized to submit to the <a href="/handle/2152/12">UT Faculty/Researcher Works collection</a> when they login with their EID and password. Staff and students must request authorization from the Repository Curator before submitting work to the Repository.    See the <a href="/policies_submission">Submission and Withdrawal Policy</a> for submission  guidelines and the <a href="/help">Help</a> section for step-by-step instructions.  </p>
+                            <p>UT Digital Repository offers an easy-to-use web based process for submitting digital works one by one to an established Collection.  All faculty are automatically authorized to submit to the <a href="/handle/2152/12">UT Faculty/Researcher Works collection</a> when they login with their EID and password. Staff and students must request authorization from the Repository Curator before submitting work to the Repository.  Individuals or groups on campus can also talk with the <a href="http://repositories.lib.utexas.edu/glossary#repository-curator">Repository Curator</a>, Colleen Lyon, about mediated deposit.  See the <a href="/policies_submission">Submission and Withdrawal Policy</a> for submission  guidelines and the <a href="/help">Help</a> section for step-by-step instructions.  </p>
                             <p>A  batch submission service of numerous works to a single Collection by UT  Libraries staff is available.  This  service will be scheduled according to staff work load.  Please contact the Repository Curator, Colleen Lyon, at <a href="mailto:utdr-general@utlists.utexas.edu">utdr-general@utlists.utexas.edu</a> for additional information on the batch submission service.</p>
                         </li>
                     </ol>
                     <br clear="all" />
                     <ol start="6" type="1">
                         <li><p><strong><a name="community_services" id="community_services"></a>Community Creation Services</strong></p>
-                            <p>For  colleges, departments, research centers, or administrative and other campus  groups interested in maintaining their own Community, UT Libraries staff will work  with your staff to help create a new Community, as well as provide advice on  <a href="/glossary#metadata">metadata</a> specific to your Community’s needs and information on copyright  issues.  As stated in number 4 above,  Communities hold Collections, and Collections hold digital works.  </p>
-                            <p>When  setting up a Community, the department or research center must identify a <a href="/glossary#community-administrator">Community  Administrator</a> to be responsible for managing all aspects of the Community,  including the Community’s Collections, and if appropriate, Curators.  Together we will work through the Collection  guidelines and necessary workflows.  For  more information on Collection requirements, see the <a href="/policies_collections">Collections Policy</a>.</p>
+                            <p>For  colleges, departments, research centers, or administrative and other campus groups interested in creating their own Community, UT Libraries staff will work  with your staff to help create a new Community, as well as provide advice on  <a href="/glossary#metadata">metadata</a> specific to your Community’s needs and information on copyright  issues.  As stated in number 4 above,  Communities hold Collections, and Collections hold digital works.  </p>
+                            <p>When  setting up a Community, the department or research center must identify a <a href="/glossary#community-administrator">Community  Administrator</a> to be responsible for either managing all aspects of the Community or communicating with the library staff who manages their community.  Together we will work through the Collection  guidelines and necessary workflows.  For  more information on Collection requirements, see the <a href="/policies_collections">Collections Policy</a>.</p>
                         </li>
                     </ol>
                     <ol start="7" type="1">
@@ -99,7 +99,7 @@ I Data</a>.</p>
                     </ol>
                     <ol start="9" type="1">
                         <li><p>All of the below Policies are accessible through the UT Digital Repository: </p>
-                            
+
                             <ul>
                                 <li><a href="/policies_services">UT Digital Repository Services</a></li>
                                 <li><a href="/policies_submission">Submission and Withdrawal Policy</a></li>
@@ -110,9 +110,9 @@ I Data</a>.</p>
                             </ul>
                         </li>
                     </ol>
-    	
-    	
+
+
 
     </xsl:template>
- 
+
 </xsl:stylesheet>

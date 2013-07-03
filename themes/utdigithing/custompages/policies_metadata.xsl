@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- 
+<!--
     Author: Steven Williams
-    
--->    
+
+-->
 
 <xsl:stylesheet xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
 	xmlns:dri="http://di.tamu.edu/DRI/1.0/"
@@ -22,25 +22,25 @@
 	 <xsl:template name="policies_metadataURI">
 			<xsl:text>Metadata Policy</xsl:text>
 	 </xsl:template>
-    
+
     <xsl:template name="policies_metadataBreadcrumb">
 		    <li class="ds-trail-link first-link"><a href="/">Repository Home </a></li><li class="ds-trail-link">Metadata Policy</li>
     </xsl:template>
-	
+
     <xsl:template name="policies_metadataBody">
-    	
+
 		<div class="headwrapper">
 			<div class="headwrapper-left-crn"><xsl:text> </xsl:text> </div>
 			<h1>
 			<div class="ds-div-head">Metadata Policy</div>
 			</h1>
 			</div>
-			<div class="headerwrapper-bt"><xsl:text> </xsl:text></div>		 	
+			<div class="headerwrapper-bt"><xsl:text> </xsl:text></div>
 
                     <ol start="1" type="1">
                         <li>Submitting works to the University  of Texas Digital Repository requires a minimum set of submitter-supplied  descriptive information (or metadata). This <a href="/glossary#metadata">metadata</a> will be indexed and       used in both the search and browse functions of the UT Digital Repository.       In addition, the metadata will be made available for external search       engines, such as Google and <a href="/glossary#oaister">OAIster</a>.          </li>
                     </ol>
-                    
+
                     <table cellspacing="0" cellpadding="0"   style="width:480px; margin-left:40px; margin-right:40px;border: 1px solid #111111;">
                         <tr>
                             <td width="480" colspan="2" valign="top"><p align="center"><strong><em>Required  Metadata </em></strong></p></td>
@@ -69,8 +69,12 @@
                             <td width="130" valign="top"><p>Subject/Keywords</p></td>
                             <td width="350" valign="top"><p>The topic(s) of the work. At least one subject/keyword is required.</p></td>
                         </tr>
+                        <tr>
+                            <td width="130" valign="top"><p>Type</p></td>
+                            <td width="350" valign="top"><p>The nature of the work being submitted.</p></td>
+                        </tr>
                     </table>
-                    
+
                     <ol start="2" type="1">
                         <li> Additional <a href="/glossary#metadata">metadata</a> fields are also available, increasing the discoverability of a work. These may or may not be applicable to submitted works and are not required. See the section on Established Collections in the <a href="policies_collections">Collections Policy</a> for collection-specific metadata.  </li>
                     </ol>
@@ -99,10 +103,6 @@
                             <td width="350" valign="top"><p>Highly    recommended for all textual works</p></td>
                         </tr>
                         <tr>
-                            <td width="130" valign="top"><p>Type    of Work</p></td>
-                            <td width="350" valign="top"><p>Highly    recommended for all works (e.g. article, book, image)</p></td>
-                        </tr>
-                        <tr>
                             <td width="130" valign="top"><p>Additional    Contributors</p></td>
                             <td width="350" valign="top"><p>Recommended    for all works with additional contributors like editors or advisors</p></td>
                         </tr>
@@ -128,5 +128,5 @@
                     </ol>
 
     </xsl:template>
- 
+
 </xsl:stylesheet>
