@@ -114,7 +114,7 @@
 <ol start="5" type="1">
   <li><strong><a name="canisubmit" id="canisubmit"></a>Can I submit data or data sets to the UT Digital Repository?</strong></li>
 </ol>
-<p>Yes, the UT Digital Repository is appropriate for data that is: in its final format, can be openly accessible to the public, needs to be stored long-term, and does not contain files larger than 1 GB. An additional benefit of submitting your work to the Repository is you can also submit papers and publications associated with your data. For more information about using the UT Digital Repository for your data, please contact Colleen Lyon at <a href="datamanagement@lib.utexas.edu">datamanagement@lib.utexas.edu</a>. In addition to the Repository, the University of Texas has a host of data management services available for researchers. For more information about Data Management at UT visit <a href="http://www.lib.utexas.edu/datamanagement">http://www.lib.utexas.edu/datamanagement</a>.</p>
+<p>Yes, the UT Digital Repository is appropriate for data that is: in its final format, can be openly accessible to the public, needs to be stored long-term, and does not contain files larger than 1 GB. An additional benefit of submitting your work to the Repository is you can also submit papers and publications associated with your data. For more information about using the UT Digital Repository for your data, please contact Colleen Lyon at <a href="mailto:datamanagement@lib.utexas.edu">datamanagement@lib.utexas.edu</a>. In addition to the Repository, the University of Texas has a host of data management services available for researchers. For more information about Data Management at UT visit <a href="http://www.lib.utexas.edu/datamanagement">http://www.lib.utexas.edu/datamanagement</a>.</p>
 <ol start="6" type="1">
   <li><strong><a name="notaffiliatedsubmit" id="notaffiliatedsubmit"></a>Can faculty, researchers,       or students who are not affiliated with UT submit works to the UT Digital       Repository? </strong></li>
 </ol>
@@ -126,8 +126,8 @@
   <li>Dissemination:  The Repository provides high visibility and increased access to your research  by furnishing descriptive information about your submitted works to search engines (e.g. Google, Bing, Yahoo), <a href="http://scholar.google.com/" target="_top">Google Scholar</a>, <a href="/glossary#oaister">OAIster</a>, and  other services.</li>
   <li>Increased  impact and citation of your research: Works in the Repository are openly  available on the web. See a <a href="http://opcit.eprints.org/oacitation-biblio.html">bibliography</a> of  studies on the increased impact and higher citations of open access research  and scholarship. </li>
   <li>Reliability:  The Repository provides a persistent web address for your work. </li>
-    <li>Long-term  access: The Repository commits  to responsible and sustainable management of submitted works. View the <a href="/policies_preservation">Preservation  Policy</a> for details. </li>
-  <li>Control:  You or your assignee retain copyright in works you submit to the Repository.  Many publishers will allow you to submit previously published works to  <a href="/glossary#institutonal_repos"></a>institutional repositories. </li>
+    <li>Long-term  access: The Repository commits  to responsible and sustainable management of submitted works.  View the <a href="/policies_preservation">Preservation  Policy</a> for details. </li>
+  <li>Control:  You or your assignee retain copyright in works you submit to the Repository.  Many publishers will allow you to submit previously published works to <a href="/glossary#institutonal_repos">institutional repositories</a>.</li>
   <li>Usage statistics: All items in the Repository have an openly accessible link to view usage statistics. You will be able to see how many times your work has been viewed and downloaded and you can see from where the activity originated.</li>
 </ul>
 <ol start="8" type="1">

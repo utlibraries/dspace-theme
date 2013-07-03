@@ -51,7 +51,7 @@ In addition to preserving selected works of research and scholarship, UTDR also 
 			<li>
 			Submission services - There is an easy-to-use web based process for submitting digital works to an
 established <a href="/glossary#community-collection">Collection</a>.  For authorization to submit to a Collection contact Colleen Lyon at <a
-href="mailto: utdr-general@utlists.utexas.edu">utdr-general@utlists.utexas.edu</a>.  Once
+href="mailto:utdr-general@utlists.utexas.edu">utdr-general@utlists.utexas.edu</a>.  Once
 authorized to do so, UT faculty, staff, students, colleges, departments, research centers, administrative and other campus groups can
 submit their works to the appropriate Collection.  Individuals or groups on campus can also talk with the Repository Curator, Colleen Lyon, about mediated deposit.<br /><br />
 A batch submission service of numerous works to a single Collection by UT Libraries staff is available.  UT Libraries staff will work with

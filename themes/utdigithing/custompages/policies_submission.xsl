@@ -38,7 +38,7 @@
 			<div class="headerwrapper-bt"><xsl:text> </xsl:text></div>
 
                     <p><br /><strong>Submission</strong></p>
-                    <p>Works  submitted to University of Texas Digital Repository should fulfill the  requirements outlined below.  For  instructions on how to submit works to UT Digital Repository, please see the <a href="/help">Help</a> section or contact Colleen Lyon at <a href="utdir-general@utlists.utexas.edu">utdir-general@utlists.utexas.edu</a>.</p>
+                    <p>Works  submitted to University of Texas Digital Repository should fulfill the  requirements outlined below.  For  instructions on how to submit works to UT Digital Repository, please see the <a href="/help">Help</a> section or contact Colleen Lyon at <a href="mailto:utdir-general@utlists.utexas.edu">utdir-general@utlists.utexas.edu</a>.</p>
                     <ol start="1" type="1">
                         <li>Works must be produced or sponsored by University of Texas at Austin faculty, research staff, or students.  Submission of works produced by students must be sponsored by a faculty member.   </li>
                     </ol>
