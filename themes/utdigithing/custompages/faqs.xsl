@@ -78,7 +78,7 @@
     <u><a href="#rights_retain">What rights do I retain to my work when submitting to the UT Digital  Repository?</a> </u><br />
     <u><a href="#nolonger_hold_copyright">If I no longer hold the copyright to an article or other publication, can  I still submit it to the UT Digital Repository?</a></u><br />
     <u><a href="#place_materials">Can I place material someplace else if I've already submitted it to the  UT Digital Repository?</a></u><br />
-    <u><a href="#someoneelse_work">I just found some interesting work by someone else in the UT Digital  Repository and am about to download it—what can I do with that work once I have  it?</a></u>
+    <u><a href="#someoneelse_work">I just found some interesting work by someone else in the UT Digital  Repository and am about to download it—what can I do with that work once I have  it?</a></u><br />
     <u><a href="#foundmywork">I've found my work in the UT Digital Repository and I didn't add it.  Why is it here?</a></u><br />
 </blockquote></p>
 <p><strong><a href="#access_privacy">Access  and Privacy Questions</a> </strong><br />
@@ -374,7 +374,7 @@ Students wishing to submit must first obtain a faculty sponsor. Once faculty spo
 </ol>
                     <p>It depends. Some publishers will not accept material that  has been made available elsewhere - even if it has not been formally published.  This is slowly changing, but we do recommend checking with potential publishers  to ensure that you can safely submit a <a href="/glossary#pre-print">preprint</a>, for example, into the  Repository. The <a href="http://www.sherpa.ac.uk/romeo.php" target="_top">Sherpa list of Publisher Copyright Policies and Self-Archiving  </a>  is the most definitive list of publisher policies at this current time. </p>
 <ol start="32" type="1">
-  <li><strong><a name="someoneelse_work" id="someoneelse_work"></a>I just found some       interesting work by someone else in the UT Digital Repository and am about       to download it—what can I do with that work once I have it?</strong></li>
+  <li><strong><a name="someoneelse_work" id="someoneelse_work"></a>I just found some       interesting work by someone else in the UT Digital Repository and am about to download it—what can I do with that work once I have it?</strong></li>
 </ol>
 <p>Unless otherwise noted in the Repository or the work itself,  you should treat the work like any other copyrighted material and may make <a href="http://www.copyright.gov/title17/92chap1.html#107" target="link">“Fair Use”</a> of it as allowed by law.</p>
 <ol start="33" type="1">
