@@ -314,6 +314,7 @@ comments are appreciated!</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_item">item</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_resource">resource</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.unknown">unknown</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.login">Casey rules everything on this page. Ask him for access.</message>
 	
 	<!-- Authentication messages used at the top of the login page:  -->
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_header">The work is restricted</message>	

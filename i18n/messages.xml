@@ -268,17 +268,18 @@ digital research material.</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_collection">This collection is restricted</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_item">This work is restricted</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_bitstream">This bitstream is restricted</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_resource">You do not have the credentials to access the restricted resource.</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_community">You do not have the credentials to access the restricted community <b>{0}</b>.</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_collection">You do not have the credentials to access the restricted collection <b>{0}</b>.</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item">You do not have the credentials to access the restricted work <b>{0}</b>.</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_bitstream">You do not have the credentials to access the restricted bitstream <b>{0}</b>.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_resource">This is a restricted resource. To gain access, please contact the Repository Curator at utdr-collections@utlists.utexas.edu.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_community">This is a restricted community <b>{0}</b>. To gain access, please contact the Repository Curator at utdr-collections@utlists.utexas.edu.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_collection">This is a restricted collection <b>{0}</b>. To gain access, please contact the Repository Curator at utdr-collections@utlists.utexas.edu.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item">This is a restricted work <b>{0}</b>. To gain access, please contact the Repository Curator at utdr-collections@utlists.utexas.edu.</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_bitstream">This is a restricted bitstream <b>{0}</b>. To gain access, please contact the Repository Curator at utdr-collections@utlists.utexas.edu.</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_collection">collection</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_community">community</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_bitstream">bitstream</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_item">item</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_resource">resource</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.unknown">unknown</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.login">Click here to login</message>
 
 	<!-- Authentication messages used at the top of the login page:  -->
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_header">This Collection is restricted</message>	
