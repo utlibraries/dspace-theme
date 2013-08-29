@@ -53,8 +53,8 @@
 	$("span.ListMinus").hide();
 
 	//Sub community are treated different for expand all and collapse all buttons
-	$("#aspect_artifactbrowser_CommunityViewer_div_community-view h3").after("<div id='expandall'>Expand All</div>");
-	$("#aspect_artifactbrowser_CommunityViewer_div_community-view h3").after("<div id='collapseall'>Collapse All</div>");
+	$("#aspect_artifactbrowser_CommunityViewer_div_community-view h3.ds-list-head").after("<div id='expandall'>Expand All</div>");
+	$("#aspect_artifactbrowser_CommunityViewer_div_community-view h3.ds-list-head").after("<div id='collapseall'>Collapse All</div>");
 	if (url=="/community-list"){
 		$(".primary p").after("<div id='expandall'>Expand All</div>");
 		$(".primary p").after("<div id='collapseall'>Collapse All</div>");
