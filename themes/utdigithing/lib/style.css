@@ -120,10 +120,10 @@ div#ds-main {
         -webkit-box-shadow: 0 0 8px#888;
         box-shadow: 0 0 8px #888;
         -moz-border-radius-bottomright: 12px;
-        -webkit-border-radius-bottomright: 12px;
+        -webkit-border-bottom-right-radius: 12px;
         border-bottom-right-radius: 10px;
         -moz-border-radius-bottomleft: 12px;
-        -webkit-border-radius-bottomleft: 12px;
+        -webkit-border-bottom-left-radius: 12px;
         border-bottom-left-radius: 10px;
 }
 
@@ -995,7 +995,7 @@ form.ds-interactive-div fieldset.ds-form-sublist ol {
 	display: table;
 	padding: 0;
 	margin: 0;
-	width: 98.6em%;
+	width: 98.6em;
 }
 
 form.ds-interactive-div fieldset.ds-form-sublist legend {
